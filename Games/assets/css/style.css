@@ -1,0 +1,83 @@
+/*Estilos da pagina index.html*/
+
+.center{ 
+    text-align: center;
+}
+
+.justify {
+text-align: justify;
+}
+
+.tm-text-30 {
+    font-size: 30px;
+    }
+
+ .tm-text-20 {
+        font-size: 20px;
+        }
+
+        .centralizar-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto }
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    font-size: 20px;
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#menu li a {
+    text-decoration: none;
+    color:#465902;
+}
+
+#menu li a:hover {
+    color:#0D0D0D;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-400 {
+    width: 400px;
+    height: 400px;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
+
+
+/*Estilos da pagina lancamentos.html*/
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.titulos-cor {
+    color: #465902;
+    text-align: center;
+}
+
+.wh-500 {
+    width: 500px;
+    height: 500px;
+}
+
+
+/*Estilos da pagina noticias.html*/
