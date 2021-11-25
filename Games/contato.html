@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InsertheCoin</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
     <ul id="menu">
         <li>
             <a href="index.html">Home</a>
@@ -24,38 +23,42 @@
         </li>
     </ul>
 
-    <h1 class="titulos-cor">InsertheCoin</h1>
-    
-        <img class="centralizar-img br-50 wh-400" src="assets/img/Logo insert.jpg" alt="logo do site">
-    
-    
+    <h1 class="center">Entre em contato comigo</h1>
+
     <div class="container">
-
-        <div>
-            <p class="center tm-text-30">O InsertheCoin tem como desejo de trazer as mais quentes novidades dos mundos dos games e listar os futuros lançamentos de jogos para todas as plataformas.</p>
-
-        </div>
-    </div>
-    
-    
-    <h2 class="titulos-cor">Comentarios</h2>
-
-    <p class="center tm-text-20">Caso queira deixar algum comentario sobre o site, preencha o formulario abaixo:</p>
-
-    <form class="center">
+<div>
+    <form>
         <label for="nome">Nome:</label>
-        <input type="text" id="nome">
-
+        <input type="text" id="nome" onkeyup ="validaNome()">
+        <div id="txtNome"></div>
         <label for="email">E-mail:</label>
-        <input type="email" id="email">
-
-        <label for="assunto">Assunto:</label>
-        <textarea name="assunto" id="assunto" cols="50" rows="10"></textarea>
-
-        <button>Enviar</button>
+        <input type="txtEmail" id="email" onkeyup ="validaEmail()">
+        <div id="txtEmail"></div>
+        <label for="assunto">Assunto:</label><br>
+        <textarea name="assunto" id="assunto" cols="50" rows="5" onkeyup="validaAssunto()"></textarea>
+        <div id="txtAssunto"></div>
+        <button onclick="enviar()">Enviar</button>
     </form>
+</div>
 
+<div class="ml-50">
+    <h2>Endereço:</h2>
 
+    <p>Metro Guilhermina Esperança</p>
+    <p>São Paulo - SP</p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.082691674248!2d-46.51917628447656!3d-23.529528066303843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e1e30e4224d%3A0xe268994d5f510f6b!2zRXN0YcOnw6NvIEd1aWxoZXJtaW5hIEVzcGVyYW7Dp2EsIFPDo28gUGF1bG8gLSBTUA!5e0!3m2!1spt-BR!2sbr!4v1637679494106!5m2!1spt-BR!2sbr" 
+        width="400"
+        height="200"
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+        onmousemove="mapaZoom()"
+        onmouseout="mapaNormal()"
+        id="mapa"
+      ></iframe>
+</div>
+    </div>
 <hr>
     <footer>
 
@@ -80,5 +83,12 @@
         Todos os direitos reservados para: Leonardo Imperatori &copy
        </p> 
     </footer>
+
+    <script src="assets/js/script.js"></script>
+
+
+    
+
+    
 </body>
 </html>
