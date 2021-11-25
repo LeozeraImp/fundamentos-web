@@ -1,0 +1,38 @@
+.w-50{
+    width: 30%;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.card-size-image{
+    width: 100%;
+    
+}
+
+.card-titulo{
+ font-size: 25px;
+ margin-bottom: 0px;
+}
+
+.preco{
+    font-size: 18px;
+    margin-right: 4px;
+    color: blue;
+   }
+
+.align-preco{
+    display: flex;
+    justify-content: start;
+}
+
+.preco-valor{
+    font-size: 18px;
+    margin-left: 4px;
+    color: red;
+}

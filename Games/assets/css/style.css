@@ -1,5 +1,9 @@
 /*Estilos da pagina index.html*/
 
+body {
+    background-color: darkkhaki;
+
+}
 .center{ 
     text-align: center;
 }
@@ -22,6 +26,7 @@ text-align: justify;
             margin-right: auto }
 
 .container {
+
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -77,6 +82,22 @@ text-align: justify;
 .wh-500 {
     width: 500px;
     height: 500px;
+}
+.preco{
+    font-size: 18px;
+    margin-right: 4px;
+    color: blue;
+   }
+
+.align-preco{
+    display: flex;
+    justify-content: start;
+}
+
+.preco-valor{
+    font-size: 18px;
+    margin-left: 4px;
+    color: red;
 }
 
 
